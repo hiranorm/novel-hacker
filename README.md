@@ -1,10 +1,14 @@
-# write_hacker
-小説編集・作成用アプリ。
+# novel_hacker
 
-kivy使用予定。
+小説校正用アプリ。
 
-とりあえず自分が使いやすいものを作る。
+UIはtkinterとcustomtkinterを使い作成した。
+ビルドはcx_freezeを使っている。
+free版はmodelを使えないようにしていたが、
+製品版のpro版を諦めたので、両方ともソース公開している。
 
+## モデルの配置
+前準備として、models以下にモデルを配置する必要がある。
 
 ## レイアウト
 - AnchorLayout : ウィジェットを上下左右と中央に配置。
